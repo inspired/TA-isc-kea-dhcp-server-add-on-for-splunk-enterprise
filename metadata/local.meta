@@ -1,0 +1,103 @@
+[props/isc%3Akea%3Adhcp4]
+owner = admin
+version = 7.0.0
+modtime = 1509633376.944345000
+
+[props/isc%3Akea%3Adhcp6]
+owner = admin
+version = 7.0.0
+modtime = 1509633386.681173000
+
+[props/isc%3Akea%3Adhcp4/REPORT-1isc_kea_dhcp4_lease]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.0
+modtime = 1509633889.936501000
+
+[props/isc%3Akea%3Adhcp6/REPORT-0isc_kea_dhcp_general]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.0
+modtime = 1509633895.413062000
+
+[props/isc%3Akea%3Adhcp4/REPORT-0isc_kea_dhcp_general]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.0
+modtime = 1509633915.395801000
+
+[transforms/isc_kea_dhcp_general]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.0
+modtime = 1509633948.681362000
+
+[transforms/isc_kea_dhcp4_lease_alloc]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.0
+modtime = 1509633953.949788000
+
+[transforms/isc_kea_dhcp4_release]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.0
+modtime = 1509633953.949788000
+
+[transforms/isc_kea_vendor_actions]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.0
+modtime = 1509634406.391981000
+
+[props/isc%3Akea%3Adhcp4/LOOKUP-isc_kea_vendor_actions]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.0
+modtime = 1509634473.859973000
+
+[transforms/isc_kea_dhcp6_lease_alloc]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.0
+modtime = 1509693248.498381000
+
+[transforms/isc_kea_dhcp6_lease_src_mac_in_duid]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.0
+modtime = 1509693248.498381000
+
+[props/isc%3Akea%3Adhcp6/REPORT-1isc_kea_dhcp6_lease]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.0
+modtime = 1509693295.501442000
+
+[props/isc%3Akea%3Adhcp6/REPORT-2isc_kea_dhcp6_lease_src_mac_in_duid]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 7.0.0
+modtime = 1509693295.501442000
+
+[eventtypes/isc_kea_dhcp_lease]
+owner = admin
+version = 7.0.0
+modtime = 1509694950.543845000
+
+[tags/eventtype%3Disc_kea_dhcp_lease]
+owner = admin
+version = 7.0.0
+modtime = 1509695150.235920000
